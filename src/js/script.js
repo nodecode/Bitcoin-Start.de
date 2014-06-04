@@ -30,6 +30,7 @@ $(function(){
 	});
 	
 	// Scrollspy
+	$('#navbar li.active').removeClass('active');
 	$("body").scrollspy({ target: "#sidebar", offset: 164 });
 	
 	var scollSpy2ActiveLI = "";
