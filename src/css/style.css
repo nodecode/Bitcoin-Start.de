@@ -2,9 +2,10 @@ html{
 	height: 100%;
 }
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", "Helvetica neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	height:100%;
+	
 	background: #b2e1ff;
 	background: -moz-radial-gradient(center, ellipse cover,  #b2e1ff 0%, #7cbff9 100%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#b2e1ff), color-stop(100%,#7cbff9));
@@ -23,15 +24,14 @@ body {
 	border-bottom: 4px solid #FF920A;
 	text-shadow: 0 1px 1px rgba(255,255,255,0.75);
 	
-background: #ffffff;
-background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
-background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
-background: -o-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
-background: -ms-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
-background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
-
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -55,7 +55,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background: -ms-linear-gradient(top,  #ffab4c 0%,#ff920a 100%);
 	background: linear-gradient(to bottom,  #ffab4c 0%,#ff920a 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffab4c', endColorstr='#ff920a',GradientType=0 );
-
 }
 h1{
 	margin:0;
