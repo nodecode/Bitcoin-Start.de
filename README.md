@@ -1,4 +1,4 @@
 Bitcoin-Start.de
 ================
 
-deutsprachige Einführung in die Kryptowährung Bitcoin
+deutschsprachige Einführung in die Kryptowährung Bitcoin
