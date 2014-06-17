@@ -23,6 +23,7 @@ body {
 	box-shadow: 0 0 8px rgba(0,0,0,0.15);
 	border-bottom: 4px solid #FF920A;
 	text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+	z-index: 100;
 	
 	background: #ffffff;
 	background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%);
