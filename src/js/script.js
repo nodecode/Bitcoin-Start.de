@@ -1,3 +1,4 @@
+Shadowbox.init();
 $(function(){
 	// Navbar Item Click
 	$("a[href^='#']:not(.navbar-brand):not([data-toggle])").on('click', function(e) {
@@ -48,4 +49,8 @@ $(function(){
 	
 	// Popover
 	$('a[data-toggle="popover"').popover();
+	
+	// Shadowbox
+	Shadowbox.init();
+	Shadowbox.setup(".gallery", { gallery: 'Bitcoin' });
 });

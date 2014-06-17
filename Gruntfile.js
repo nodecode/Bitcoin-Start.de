@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		},
 		cssmin: {
 			minify: {
-				src: ['src/css/bootstrap.min.css', 'src/css/bootstrap-theme.min.css', 'src/css/font-awesome.min.css', 'src/css/fonts.css', 'src/css/style.css'],
+				src: ['src/css/bootstrap.min.css', 'src/css/bootstrap-theme.min.css', 'src/css/font-awesome.min.css', 'src/css/fonts.css', 'src/css/shadowbox.css', 'src/css/style.css'],
 				dest: 'build/style.css'
 			}
 		},
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 		uglify: {
 			minify: {
 				files: {
-					'build/script.js': ['src/js/jquery.min.js', 'src/js/bootstrap.min.js', 'src/js/script.js']
+					'build/script.js': ['src/js/jquery.min.js', 'src/js/bootstrap.min.js', 'src/js/shadowbox.js', 'src/js/script.js']
 				}
 			}
 		},
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 			main: {
 				expand: true,
 				cwd: 'src/',
-				src: ['favicon.ico', 'img/*', 'fonts/*'],
+				src: ['favicon.ico', 'img/*', 'fonts/*', '*.png', '*.gif'],
 				dest: 'build/'
 			}
 		}
